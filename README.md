@@ -88,3 +88,4 @@ Based on the included `summary.json`:
 - The checked-in dashboard images are the provided project outputs.
 - The pipeline has been adapted to use repository-relative paths so it can run locally from this repo.
 "# Customer-Churn-Analytics-Pipeline" 
+"# Customer-Churn-Analytics-Pipeline" 
