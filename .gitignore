@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.DS_Store
+
+data/processed/*
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+outputs/reports/*
+!outputs/reports/.gitkeep

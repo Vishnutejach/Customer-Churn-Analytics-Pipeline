@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "source": "data/raw/Customer-Churn-Records.csv",
+    "rows": 10000,
+    "features": 23,
+    "churn_rate": 0.2038
+  },
+  "models": {
+    "Decision Tree": {
+      "accuracy": 0.996,
+      "roc_auc": 0.9961634151147897,
+      "avg_prec": 0.9934484287799357
+    },
+    "Random Forest": {
+      "accuracy": 0.978,
+      "roc_auc": 0.9966145063553059,
+      "avg_prec": 0.9893114102785328
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9985,
+      "roc_auc": 0.999602793378658,
+      "avg_prec": 0.9987965844746739
+    },
+    "Deep Neural Network": {
+      "accuracy": 0.9975,
+      "roc_auc": 0.997816903143167,
+      "avg_prec": 0.996677815878805
+    }
+  },
+  "best_model": "Gradient Boosting",
+  "risk_tiers": {
+    "High Risk": 406,
+    "Medium Risk": 1,
+    "Low Risk": 1593
+  },
+  "business_impact": {
+    "total_net_roi_usd": 1750690,
+    "total_customers_saved": 1076
+  }
+}
